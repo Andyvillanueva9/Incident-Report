@@ -45,7 +45,15 @@
   <li><b>Immediate Actions</b>: A timeout after 3 failed login attempts was set in place to slow down the attack. This allowed enough time to configure A VPN tunnel and disabled the HTTPS administrator web interface after testing and ensuring that the VPN tunnel allowed administrator web interface access. </li>
   <li><b>Stakeholder Impact</b>: The impact on systems was minimal with no notice in network performance degradation. Many un-analyzed logs on the firewall memory were purged because of the extreme number of logs that were generated. </li>
 </ul>  
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
+<h2>Technical Analysis</h2>
+<br />
 
 
 
