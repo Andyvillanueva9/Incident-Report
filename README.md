@@ -55,6 +55,9 @@
 <h2>Technical Analysis</h2>
 <br />
 
+<b>Affected Systems and Data </b>
+<br />
+The only systems affected were the systems that were logged in to the admin web interface remotely. Once the VPN was configured the remote machines were able to connect using the VPN. In addition, some data was lost during the incident. Currently the number of logs lost is unknown. This data consisted of un-analyzed logs that were purged on the firewall due to the influx of logs using up all available memory. 
 
 
 
