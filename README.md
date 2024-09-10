@@ -62,7 +62,7 @@
 The only systems affected were the systems that were logged in to the admin web interface remotely. Once the VPN was configured the remote machines were able to connect using the VPN. In addition, some data was lost during the incident. Currently the number of logs lost is unknown. This data consisted of un-analyzed logs that were purged on the firewall due to the influx of logs using up all available memory. 
 <br />
 <br />
-Evidence Sources & Analysis
+<b>Evidence Sources & Analysis </b>
 <br />
 On September 3, 2024 at 08:30:00 A large amount of logs were observed in the system event section of the firewall. These logs indicated failed login attempts from external IPs using different usernames. Attackers were attempting to gain access to the admin account on the firewall using a brute force attack on the HTTPS admin interface. 
 
