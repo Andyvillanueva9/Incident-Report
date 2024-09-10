@@ -87,8 +87,23 @@ https://www.virustotal.com/gui/url/66d6c94372a05a4ce087c8fbaaa183dbd96cc9859b6c6
 <br />
 https://www.virustotal.com/gui/url/88505ef93c4180d16a277ae15d82a62961fd5943260a871453a815f637f6239e
 <br />
+<br />
+<b>Evidence Sources & Analysis </b>
+<br />
+Improper configuration for the admin web interface on the firewall led to it being found by attackers through the public IP. The attackers could have used Hydra or tools similar to that to perform the web login brute force attacks. 
 
-
+<br />
+<br />
+<b>Technical Timeline </b>
+<br />
+The exact time of when the attack started could not be determined due to logs being lost. The oldest log available had a timestamp of September 3, 2024, at 04:47:12. The logs indicated that the attacks from 185.190.24.178 were the most active at the time with 5.181.86.12 and 185.122.204.186 joining in 2 hours after. 
+<br />
+<b>September 3, 2024 10:14:43 </b>: Changes were made to disable login for 600 seconds after 3 failed attempts. This significantly reduced the number of login attempts. 
+<br />
+<b>September 3, 2024 11:24:00 </b>: VPN tunnel was configured for remote admin access and tested to confirm it was operational. 
+<br />
+<b>September 3, 2024 11:30:00 </b>: HTTPS admin web interface was disabled and access was no longer possible through the public IP.  At this stage the attack was completely stopped. 
+<br />
 
 
 
