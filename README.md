@@ -107,11 +107,18 @@ The exact time of when the attack started could not be determined due to logs be
 <b>September 3, 2024 11:30:00 </b>: HTTPS admin web interface was disabled and access was no longer possible through the public IP.  At this stage the attack was completely stopped. 
 <br />
 <br />
-<h2>Technical Analysis</h2>
+<br />
+<br />
+<br />
+<h2>Response and Recovery</h2>
+<br />
 <br />
 
+<b>Technical Timeline </b>
 
-
+<br />
+<br />
+<b>Technical Timeline </b>
 
 
 
