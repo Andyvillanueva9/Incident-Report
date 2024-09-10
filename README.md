@@ -87,7 +87,7 @@ https://www.virustotal.com/gui/url/66d6c94372a05a4ce087c8fbaaa183dbd96cc9859b6c6
 https://www.virustotal.com/gui/url/88505ef93c4180d16a277ae15d82a62961fd5943260a871453a815f637f6239e
 <br />
 <br />
-<b>Evidence Sources & Analysis </b>
+<b>Root Cause Analysis </b>
 <br />
 Improper configuration for the admin web interface on the firewall led to it being found by attackers through the public IP. The attackers could have used Hydra or tools similar to that to perform the web login brute force attacks. 
 
@@ -110,10 +110,9 @@ The exact time of when the attack started could not be determined due to logs be
 <br />
 <br />
 <br />
-<h2>Response and Recovery</h2>
+<h2>Response and Recovery Analysis</h2>
 <br />
 <br />
-
 <b>Immediate Response Actions </b>
 <br />
 After finding evidence of an ongoing brute force attack more logs were analyzed to find the scale of the attack. Once it was verified that the attack was coming from various external IP addresses and not internal devices the decision was made to update the lock out time for failed logins. This allowed us to find the misconfiguration that allowed the attack to take place. Once the configuration was found, a VPN tunnel was created that would allow admin remote access. After testing the VPN and confirming remote access, the HTTPS admin interface was disabled from the internet facing WAN configuration.
@@ -124,11 +123,27 @@ After finding evidence of an ongoing brute force attack more logs were analyzed 
 After losing some log data from this attack plans have been put in place to integrate the logs with Wazuh. A high volume of events that causes log purge can be used to hide evidence of earlier attacks. For example, if an attacker were to be successful in compromising a VPN a flood of events can be used to purge the logs containing the VPN attacks. The integration a scheduled to be complete by September 06, 2024. 
 <br />
 <br />
-
-
-
-
-
+<br />
+<br />
+<br />
+<h2>Annex A </h2>
+<br />
+<br />
+<b>Technical Timeline </b>
+<br />
+<br />
+<b>September 3, 2024 04:47:12 </b>: Logs indicated that various external IPs were attempting a brute force attack on the admin web interface of the firewall.
+<br />
+<br />
+<b>September 3, 2024 10:14:43 </b>: Changes were made to disable login for 600 seconds after 3 failed attempts. This significantly reduced the number of login attempts. 
+<br />
+<br />
+<b>September 3, 2024 11:24:00 </b>: VPN tunnel was configured for remote admin access and tested to confirm it was operational. 
+<br />
+<br />
+<b>September 3, 2024 11:30:00 </b>: HTTPS admin web interface was disabled and access was no longer possible through the public IP.  At this stage the attack was completely stopped. 
+<br />
+<br />
 </html>
 
 <!--
