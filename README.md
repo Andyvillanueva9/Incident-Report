@@ -68,10 +68,8 @@ On September 3, 2024 at 08:30:00 A large amount of logs were observed in the sys
 
 <br />
 
-<br />
 <img src="https://github.com/Andyvillanueva9/Projectimages/blob/main/Untitled.jpg?raw=true](https://github.com/Andyvillanueva9/Projectimages/blob/e2e2991c2109b147dedfb8e78696c64f2d7e6fbf/Screenshot%201.jpg">
 
-<br />
 <br />
 Analysis of the attacking IP addresses on the remaining logs show that all the attacks originated from the EU and have already been flagged by Virustotal for being malicious.
 
