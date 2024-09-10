@@ -72,6 +72,21 @@ On September 3, 2024 at 08:30:00 A large amount of logs were observed in the sys
 
 <br />
 Analysis of the attacking IP addresses on the remaining logs show that all the attacks originated from the EU and have already been flagged by Virustotal for being malicious.
+<br />
+<br />
+
+185.122.204.186 
+<br />
+https://www.virustotal.com/gui/url/1cfb497340c3daf6c3b705fd1d6741bda0627d2fdc1fe27d44804626d4b0ccb5
+<br />
+185.190.24.178
+<br />
+https://www.virustotal.com/gui/url/66d6c94372a05a4ce087c8fbaaa183dbd96cc9859b6c6cd74d915bf91e373fe8/detection
+<br />
+5.181.86.12
+<br />
+https://www.virustotal.com/gui/url/88505ef93c4180d16a277ae15d82a62961fd5943260a871453a815f637f6239e
+<br />
 
 
 
