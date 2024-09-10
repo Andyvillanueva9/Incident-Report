@@ -3,13 +3,12 @@
 <h1>Incident Report</h1>
 <br />
 <br />
- 
-
+<br />
+<br />
 <h2>Index</h2>
 <br />
 
 <h3>Executive Summary </h3>
-<br />
 <h3>Technical Analysis</h3>
 <br />
 	&nbsp; &nbsp; Affected Systems & Data
@@ -19,7 +18,7 @@
 	&nbsp; &nbsp; Root Cause Analysis	
 <br />
 	&nbsp; &nbsp; Technical Timeline	
-<br />
+
 <h3>Response and Recovery Analysis</h3>
 <br />
 	&nbsp; &nbsp; Immediate Response Actions
