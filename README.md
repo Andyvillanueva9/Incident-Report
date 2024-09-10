@@ -114,11 +114,16 @@ The exact time of when the attack started could not be determined due to logs be
 <br />
 <br />
 
-<b>Technical Timeline </b>
-
+<b>Immediate Response Actions </b>
+<br />
+After finding evidence of an ongoing brute force attack more logs were analyzed to find the scale of the attack. Once it was verified that the attack was coming from various external IP addresses and not internal devices the decision was made to update the lock out time for failed logins. This allowed us to find the misconfiguration that allowed the attack to take place. Once the configuration was found, a VPN tunnel was created that would allow admin remote access. After testing the VPN and confirming remote access, the HTTPS admin interface was disabled from the internet facing WAN configuration.
 <br />
 <br />
-<b>Technical Timeline </b>
+<b>Post-incident Actions </b>
+<br />
+After losing some log data from this attack plans have been put in place to integrate the logs with Wazuh. A high volume of events that causes log purge can be used to hide evidence of earlier attacks. For example, if an attacker were to be successful in compromising a VPN a flood of events can be used to purge the logs containing the VPN attacks. The integration a scheduled to be complete by September 06, 2024. 
+<br />
+<br />
 
 
 
